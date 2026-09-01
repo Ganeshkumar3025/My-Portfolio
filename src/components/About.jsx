@@ -72,7 +72,7 @@ const About = () => {
         <div className="flex flex-col items-start space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded bg-black/80 backdrop-blur-2xl border border-red-600/40 text-xs font-mono uppercase tracking-widest text-white shadow-2xl">
             <span className="w-2 h-2 rounded-full bg-red-600 animate-ping"></span>
-            <span className="text-red-500 font-bold">EPISODE 01</span>
+            <span className="text-red-500 font-bold">ABOUT</span>
             <span className="text-white/40">|</span>
             <span>ABOUT THE ENGINEER</span>
           </div>
@@ -107,17 +107,18 @@ const About = () => {
             <div className="space-y-5 relative z-10">
               <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold">Cast & Background</h3>
               <p className="text-lg md:text-xl font-medium text-white/90 leading-relaxed">
-                I am <span className="text-white font-bold drop-shadow">Pallapu Dileep Kumar</span>, a B.Tech Computer Science and Engineering student at Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology (2024–2028).
+                I am <span className="text-white font-bold drop-shadow">Ganesh Kumar</span>, a M.Sc Information student at Sri Krishna Arts And Science College (2026–2028).
               </p>
               <p className="text-sm md:text-base text-white/60 font-light leading-relaxed">
-                My technical journey combines algorithmic problem-solving, full-stack development, artificial intelligence, and modern web technologies. I enjoy turning ideas into practical, responsive, and scalable software.
+                My technical journey combines full-stack development, artificial intelligence, 3D modeling, and modern web technologies. I enjoy transforming ideas into practical, interactive, and visually engaging digital experiences while continuously exploring new technologies and improving my problem-solving skills.
               </p>
             </div>
             
             <div className="pt-8 flex flex-wrap gap-2 relative z-10">
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">AI & ML</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">MERN STACK</span>
               <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Full-Stack Development</span>
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">System Architecture</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">3D Modeling</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Unity</span>
             </div>
           </div>
 
@@ -143,15 +144,15 @@ const About = () => {
               <ul className="space-y-3.5 text-sm text-white/80 font-light">
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>CSE student at <strong className="text-white">Vel Tech</strong>, focused on software engineering, AI/ML, and modern web development.</span>
+                  <span>M.Sc student at <strong className="text-white">SKASC</strong>, focused on Full stack developnment,3d Modeling and 3d Modeling.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>Hands-on internship exposure across <strong className="text-white">web development, Python, AI/ML, cybersecurity, and prompt engineering</strong>.</span>
+                  <span>Hands-on internship exposure across <strong className="text-white">web development, Python, 3D Modeling, Video editing, and prompt engineering</strong>.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>Built projects including <strong className="text-white">Smart Attendance, Zentro Hub, AI Voice Assistant, AI Chatbot, and ML models</strong>.</span>
+                  <span>Built projects including <strong className="text-white">Continuous Security Validation Platform, Farm-Ed Game, AI Voice Assistant, AI Chatbot, and Microplastic detection</strong>.</span>
                 </li>
               </ul>
             </div>
@@ -180,7 +181,7 @@ const About = () => {
             </div>
             
             <div className="flex flex-wrap items-center gap-3 relative z-10">
-              {['Java', 'Python', 'React', 'Spring Boot', 'JavaScript', 'MySQL', 'MongoDB', 'Git & GitHub'].map((tech, idx) => (
+              {['Java', 'Python', 'React', 'Blender','Unity', 'Roblox Studio', 'JavaScript', 'MySQL', 'Three.js', 'MongoDB', 'Git & GitHub'].map((tech, idx) => (
                 <span
                   key={idx}
                   className="px-4 py-2 rounded bg-white/[0.04] border border-white/10 text-xs font-mono uppercase tracking-wider text-white shadow-inner hover:bg-red-600/20 hover:border-red-600/40 hover:scale-105 transition-all"

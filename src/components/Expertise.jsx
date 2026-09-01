@@ -7,34 +7,33 @@ gsap.registerPlugin(ScrollTrigger);
 const expertiseData = [
   {
     number: "01",
-    title: "Frontend Development",
-    text: "Crafting responsive, high-fidelity user interfaces with React, modern JavaScript, Tailwind CSS, and buttery smooth GSAP motion interactions.",
-    tag: "UI / UX & INTERACTION",
+    title: "DevOps",
+    text: "Working with CI/CD pipelines, Git, GitHub, deployment workflows, cloud platforms, and modern DevOps tools while building reliable and scalable applications.",
+    tag: "DEVOPS & CI/CD",
     gradient: "from-[#1f0a0c] via-[#121212] to-[#0a0a0a]"
   },
   {
     number: "02",
-    title: "Backend Development",
-    text: "Building REST APIs and backend services with Java, Spring Boot, MySQL, MongoDB, and practical software engineering patterns.",
-    tag: "API & ARCHITECTURE",
+    title: "Video Editing",
+    text: "Creating engaging video content through professional editing, motion graphics, visual effects, transitions, color grading, and storytelling techniques.",
+    tag: "VISUAL COMMUNICATIN",
     gradient: "from-[#1a0809] via-[#111111] to-[#090909]"
   },
   {
     number: "03",
-    title: "AI & Machine Learning",
-    text: "Developing AI/ML projects with Python, NLP, machine learning, data analysis, and intelligent application workflows.",
-    tag: "INTELLIGENCE & ML",
+    title: "3D Modeling",
+    text: "Creating 3D models and digital assets using Blender, focusing on detailed modeling, realistic materials, lighting, rendering, and visually engaging designs.",
+    tag: "3D VISUALIZITION",
     gradient: "from-[#220a0d] via-[#131313] to-[#0a0a0a]"
   },
   {
     number: "04",
-    title: "Cloud & Deployment",
-    text: "Working with Git, GitHub, deployment workflows, and modern development tools while building reliable, responsive applications.",
-    tag: "DEVOPS & CLOUD",
+    title: "Game Development",
+    text: "Working with game development workflows, Unity, 3D assets, gameplay mechanics, and interactive systems while creating engaging and immersive gaming experiences.",
+    tag: "GAMEPLAY PROGRAMMING",
     gradient: "from-[#1d090b] via-[#101010] to-[#080808]"
   }
 ];
-
 const Expertise = () => {
   const containerRef = useRef(null);
   const cardRefs = useRef([]);
@@ -103,7 +102,7 @@ const Expertise = () => {
           <div className="space-y-3 max-w-xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-black/80 backdrop-blur-xl border border-red-600/40 text-[11px] font-mono uppercase tracking-widest text-white shadow-xl">
               <span className="w-1.5 h-1.5 rounded-full bg-red-600 animate-ping"></span>
-              <span className="text-red-500 font-bold">EPISODE 02</span>
+              <span className="text-red-500 font-bold">EXPERTISE</span>
               <span className="text-white/40">|</span>
               <span>CORE COMPETENCIES</span>
             </div>
@@ -115,7 +114,7 @@ const Expertise = () => {
             </h2>
           </div>
           <p className="text-white/60 text-xs md:text-sm font-light leading-relaxed max-w-xs">
-            Merging full-stack engineering, scalable microservices, and AI integrations into production-ready platforms.
+           Combining full-stack development, 3D modeling, and modern web technologies to build responsive, scalable, and production-ready digital experiences.
           </p>
         </div>
 

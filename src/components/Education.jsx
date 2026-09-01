@@ -3,27 +3,27 @@ import { gsap } from 'gsap';
 
 const education = [
   {
-    period: '2024 — 2028',
-    level: 'B.TECH',
-    title: 'Computer Science & Engineering',
-    school: 'Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology',
-    place: 'Chennai, Tamil Nadu',
-    note: 'Current undergraduate journey focused on software engineering, AI/ML, algorithms, databases and modern web development.'
+    period: '2026 — 2028',
+    level: 'M.Sc',
+    title: 'Information Technology',
+    school: 'Sri Krishna arts and science College',
+    place: 'Coimbatore, Tamil Nadu',
+    note: 'Current Postgraduate journey focused on software engineering, AI/ML, algorithms, databases and modern web development.'
   },
   {
-    period: '2022 — 2024',
-    level: 'INTERMEDIATE',
-    title: 'Intermediate',
-    school: 'Sri Chaitanya Junior College',
-    place: 'Andhra Pradesh',
-    note: 'Senior secondary education with Mathematics, Physics and Chemistry.'
+    period: '2023 — 2026',
+    level: 'B.Sc',
+    title: 'Information Technology',
+    school: 'Sri Krishna Adithya College Of Arts And Science',
+    place: 'Coimbatore, Tamil Nadu',
+    note: 'undergraduate journey focused on Basics of Programming, Oops Concepts, algorithms, databases and web development.'
   },
   {
-    period: '2022',
+    period: '2023',
     level: 'SSC',
     title: 'Secondary School Certificate',
-    school: "Kids Patasala High School",
-    place: 'Andhra Pradesh',
+    school: "Evangeline Metriculation Higher Secondry School",
+    place: 'Coimbatore, Tamil Nadu',
     note: 'Completed secondary school education.'
   }
 ];
@@ -50,7 +50,7 @@ const Education = () => {
             <span className="text-red-500 font-bold">EPISODE 03</span><span className="text-white/40">|</span><span>EDUCATION ARCHIVE</span>
           </div>
           <h2 className="mt-5 text-4xl md:text-6xl font-black tracking-tighter">ACADEMIC <span className="text-red-600">TIMELINE.</span></h2>
-          <p className="mt-4 max-w-2xl text-white/55">The academic foundation behind Pallapu Dileep Kumar's engineering and technology journey.</p>
+          <p className="mt-4 max-w-2xl text-white/55">The academic foundation behind Ganesh Kumar's engineering and technology journey.</p>
         </div>
 
         <div className="relative ml-2 md:ml-6">

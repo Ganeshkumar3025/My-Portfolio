@@ -11,10 +11,10 @@ const Hero = () => {
   const contentRef = useRef(null);
 
   const developerRoles = [
-    'FEATURE FILM // FULL-STACK DEVELOPER',
-    'ORIGINAL SERIES // AI & ML ENTHUSIAST',
-    'BLOCKBUSTER // SOFTWARE ENGINEERING',
-    'ACCLAIMED // ALGORITHMIC PROBLEM SOLVER'
+    'GANESH KUMAR // INFORMATION TECHNOLOGY',
+    'DEVOPS // 3D MODELING',
+    'MERN STACK // BLENDER',
+    'FULL TIME // FREELANCING // REMOTE'
   ];
 
   useEffect(() => {
@@ -177,13 +177,13 @@ const Hero = () => {
         <div className="hero-anim-item flex items-center justify-between w-full gap-4">
           <div className="inline-flex max-w-full flex-wrap items-center gap-2 px-3 sm:px-4 py-1.5 rounded bg-black/80 backdrop-blur-2xl border border-red-600/40 text-[9px] sm:text-xs font-mono uppercase tracking-widest text-white shadow-2xl">
             <span className="w-2 h-2 rounded-full bg-red-600 animate-ping"></span>
-            <span className="text-red-500 font-bold tracking-wider">PALLAPU DILEEP KUMAR // DEVELOPER SERIES</span>
+            <span className="text-red-500 font-bold tracking-wider">ABOUT </span>
             <span className="text-white/40">|</span>
-            <span className="text-white/80">SEASON 2024 - 2028</span>
+            <span className="text-white/80">M.Sc Student </span>
           </div>
           <div className="hidden md:flex items-center gap-2 text-xs font-mono text-white/50 tracking-wider">
-            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">FULL-STACK</span>
-            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">AI / ML</span>
+            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">DEVOPS</span>
+            <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">3D DESIGNER</span>
           </div>
         </div>
 
@@ -194,27 +194,27 @@ const Hero = () => {
           <div className="lg:col-span-5 min-w-0 flex flex-col items-start space-y-4 sm:space-y-5 text-left">
             
             <div className="hero-anim-item flex items-center gap-3">
-              <span className="px-2.5 py-0.5 bg-red-600 text-white font-black text-xs rounded tracking-widest shadow-[0_0_20px_rgba(229,9,20,0.8)] animate-pulse">CSE STUDENT</span>
-              <span className="text-white/80 text-xs font-mono tracking-widest uppercase">CSE Student & Software Developer</span>
+              <span className="px-2.5 py-0.5 bg-red-600 text-white font-black text-xs rounded tracking-widest shadow-[0_0_20px_rgba(229,9,20,0.8)] animate-pulse">OPEN WORKER</span>
+              <span className="text-white/80 text-xs font-mono tracking-widest uppercase">Devops engineer and 3D developer</span>
             </div>
 
             <h1 className="hero-anim-item text-[2.65rem] leading-[0.9] sm:text-5xl md:text-7xl font-black tracking-tighter text-white drop-shadow-[0_15px_30px_rgba(0,0,0,0.9)]">
-              PALLAPU DILEEP KUMAR <br />
+              GANESH KUMAR <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-rose-600 to-red-700 drop-shadow-[0_0_35px_rgba(220,38,38,0.5)]">
-                DEV.ENGINE
+                MARIMUTHU
               </span>
             </h1>
 
             <div className="hero-anim-item flex flex-wrap items-center gap-2 sm:gap-3 text-[10px] sm:text-xs font-mono text-red-400 font-bold">
-              <span className="px-2 py-0.5 bg-red-500/10 border border-red-500/30 rounded text-red-500">VEL TECH</span>
+              <span className="px-2 py-0.5 bg-red-500/10 border border-red-500/30 rounded text-red-500">SKASC</span>
               <span className="text-white/40">•</span>
-              <span>Java • React • Spring Boot</span>
+              <span>Python • Mern • Blender</span>
               <span className="text-white/40">•</span>
-              <span className="text-white/70">Python & AI/ML</span>
+              <span className="text-white/70">UNITY • VS CODE</span>
             </div>
 
             <p className="hero-anim-item text-sm md:text-base text-white/80 font-light leading-relaxed max-w-md drop-shadow">
-              Building full-stack web applications, AI-powered solutions, and practical software systems with a strong focus on clean engineering and continuous learning.
+              Fresher | Full stack developer and 3d Modeler | Python • Git and GitHub • MERN • Blender • Web Development | Hackathon 🥉X1
             </p>
 
             {/* Action Button Set */}
@@ -262,7 +262,7 @@ const Hero = () => {
 
                 {/* Netflix Series Tag */}
                 <div className="absolute top-6 left-6 z-30 px-3 py-1 bg-red-600 text-white font-mono text-[10px] font-bold tracking-widest rounded shadow-xl">
-                  PALLAPU DILEEP KUMAR
+                  GANESH KUMAR
                 </div>
 
                 <img
@@ -277,9 +277,9 @@ const Hero = () => {
           {/* Right Side: Technical Specs & Stack */}
           <div className="hero-anim-item lg:col-span-3 flex flex-col items-start lg:items-end space-y-4 text-left lg:text-right">
             <div className="p-5 bg-black/80 backdrop-blur-2xl border border-white/15 rounded-xl shadow-2xl max-w-xs">
-              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold mb-2">Core Stack & Focus</h3>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold mb-2">About</h3>
               <p className="text-xs text-white/80 leading-relaxed font-light">
-                B.Tech CSE at Vel Tech (2024–2028), with hands-on internship experience across web development, Python, AI/ML, cybersecurity, and prompt engineering.
+                M.Sc IT  at Sri Krishna Arts and Science College (2026–2028), with hands-on internship experience across web development, Python, Mern and Blender.
               </p>
             </div>
           </div>
@@ -288,8 +288,8 @@ const Hero = () => {
 
         {/* Bottom Cinematic Ticker */}
         <div className="hero-anim-item flex items-center justify-between text-xs font-mono text-white/50 tracking-widest uppercase">
-          <span>ENGINEERED FOR SCALABILITY</span>
-          <span>[ PORTFOLIO RELEASE v1.0 ]</span>
+          <span>A SMALL TRIBUTE TO AGALYA R</span>
+          <span>[ Scroll down ]</span>
         </div>
       </div>
 
@@ -308,7 +308,7 @@ const Hero = () => {
       <header className="absolute top-0 left-0 z-50 w-full px-5 md:px-8 lg:px-12 py-5 flex items-center gap-4 pointer-events-auto">
         <div className="flex items-center gap-4 shrink-0">
           <a href="#home" aria-label="Dileep Kumar home" className="group relative w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden border border-red-600/70 bg-[#0b0b0b] shadow-[0_0_28px_rgba(229,9,20,0.55)]">
-            <img src="/assets/images/profile.png" alt="Pallapu Dileep Kumar" className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+            <img src="/assets/images/profile.png" alt="Ganesh Kumar" className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
           </a>
           <a href="#home" className="hidden sm:inline-flex text-xs font-mono uppercase tracking-widest text-white/85 hover:text-red-500 transition-colors">Home</a>
         </div>

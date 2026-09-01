@@ -18,10 +18,10 @@ const skillCategories = [
     skills: ['Java', 'Spring Boot', 'REST APIs', 'MySQL', 'MongoDB'] 
   },
   { 
-    title: 'AI & Machine Learning', 
-    desc: 'Developing intelligent applications leveraging NLP, generative AI workflows, computer vision, and LLM systems.', 
-    tag: 'INTELLIGENCE',
-    skills: ['Python', 'NLP', 'Machine Learning', 'Data Analysis', 'AI Tools'] 
+    title: '3D Modeling', 
+    desc: 'Creating detailed 3D assets using Blender, with a focus on modeling, texturing, materials, lighting, rendering, and realistic visual presentation.', 
+    tag: '3D Design',
+    skills: ['Blender', '3D Modeling', 'Texturing', 'Materials', 'Lighting', 'Rendering'] 
   },
   { 
     title: 'Cloud & DevOps', 
@@ -39,7 +39,7 @@ const skillCategories = [
     title: 'Tools & Ecosystem', 
     desc: 'Equipped with industry-grade instruments for version control, productivity extensions, and workflow management.', 
     tag: 'PRODUCTIVITY',
-    skills: ['Git', 'GitHub', 'VS Code', 'IntelliJ IDEA', 'Eclipse'] 
+    skills: ['Git', 'GitHub', 'VS Code', 'Eclipse', 'Blender', 'Unity', 'Roblox Studio'] 
   },
 ];
 
