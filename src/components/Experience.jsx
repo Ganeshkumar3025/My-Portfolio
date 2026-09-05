@@ -2,9 +2,9 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
 const internships = [
-  { role: 'Python Development Intern', company: 'zAALIMA Technology', period: 'Jul 2026 — Oct 2026', status: 'CURRENT', details: 'Remote internship focused on Python development and practical project exposure.' },
-  { role: 'Web Development Intern', company: 'INFINITY CONNECTS MEDIA', period: 'Jun 2026 — Jul 2026', status: 'COMPLETED', details: 'Web development internship with hands-on experience building and improving web solutions.' },
-  { role: 'Prompt Engineer Intern', company: 'SkillCraft Technology', period: 'May 2025 — Present', status: 'CURRENT', details: 'Worked on AI-driven solutions, prompt optimization and Generative AI workflows.' },
+  { role: 'Agnirva Space Internship', company: 'Agnirva', period: 'Jul 2023 — Oct 2023', status: 'COMPLETED', details: 'Remote internship focused on Technologies used for Space Research.' },
+  { role: '3d Modeling', company: 'MOTIONMIND CREATION', period: 'Jun 2022 — Live', status: 'CURRENT', details: 'Being 3D Developer, Texturing and Realistic rendering using Blender' },
+  { role: 'Agnirva AI internship Program', company: 'Agnirva', period: 'May 2026 — July 2026', status: 'COMPLETED', details: 'Worked on AI-driven solutions, prompt optimization and Generative AI workflows.' },
   { role: 'Artificial Intelligence Intern', company: 'TopGrade Innovation', period: 'Mar 2026 — May 2026', status: 'COMPLETED', details: 'Worked on Python-based AI applications, software development and testing activities.' },
   { role: 'AI & Machine Learning Intern', company: 'QSkills', period: 'Nov 2025 — Jan 2026', status: 'COMPLETED', details: 'Applied Python to AI/ML tasks, datasets, model development and evaluation workflows.' },
   { role: 'Front-End Development Intern', company: 'QSkills', period: 'Feb 2025 — May 2025', status: 'COMPLETED', details: 'Developed responsive web interfaces and improved user experience and interface usability.' }

@@ -41,7 +41,7 @@ const Contact = () => {
 
     const subject = encodeURIComponent(`Portfolio enquiry from ${formData.firstName} ${formData.lastName}`);
     const body = encodeURIComponent(`${formData.message}\n\nReply to: ${formData.email}`);
-    window.location.href = `mailto:dileepkumarpallapu28@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:ganeshkumarmarimuthu30@gmail.com?subject=${subject}&body=${body}`;
     
     setFormData({ firstName: '', lastName: '', email: '', message: '', permission: false });
   };
@@ -162,14 +162,13 @@ const Contact = () => {
               {/* Right text & button */}
               <div className="flex-1 flex flex-col gap-8 text-xs text-white/50 font-light">
                 <p className="leading-relaxed max-w-[400px]">
-                  Reach me directly at dileepkumarpallapu28@gmail.com or connect through GitHub and LinkedIn.
+                  Reach me directly at ganeshkumarmarimuthu30@gmail.com or connect through GitHub and LinkedIn.
                 </p>
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-6">
                   <p className="max-w-[250px] leading-relaxed">
                     Open to software development, AI/ML, web development, and collaboration opportunities.
                   </p>
-                  
-                  <button 
+                  <button
                     type="submit" 
                     className="px-8 py-3.5 rounded bg-red-600 text-white font-bold uppercase tracking-widest text-xs flex items-center justify-center gap-3 hover:bg-red-700 transition-all duration-300 group whitespace-nowrap shadow-[0_0_20px_rgba(229,9,20,0.6)] hover:scale-105"
                   >

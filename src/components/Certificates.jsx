@@ -3,65 +3,65 @@ import { useState } from 'react';
 const certificates = [
   {
     "page": 1,
-    "title": "Building AI-Powered Search with MongoDB Vector Search",
-    "issuer": "MongoDB / Credly",
-    "date": "Jul 10, 2026",
-    "pdf": "/assets/certificates/docs/01-building-ai-powered-search-with-mongodb-vector-search.pdf"
+    "title": "Ai and Robotics process automation Workshop",
+    "issuer": "NxtWave",
+    "date": "feb 27, 2026",
+    "pdf": "/assets/certificates/docs/AI and Robotics.pdf"
   },
   {
     "page": 2,
-    "title": "AI and Innovation: How MongoDB Enables a Resilient AI Strategy",
-    "issuer": "MongoDB",
-    "date": "Jul 08, 2026",
-    "pdf": "/assets/certificates/docs/02-ai-and-innovation-how-mongodb-enables-a-resilient-ai-strategy.pdf"
+    "title": "Introduction to Data Science",
+    "issuer": "Cisco Networking Academy",
+    "date": "mar 05, 2026",
+    "pdf": "/assets/certificates/docs/Data Science.pdf"
   },
   {
     "page": 3,
-    "title": "Building AI Agents with MongoDB",
-    "issuer": "MongoDB / Credly",
-    "date": "Jul 10, 2026",
-    "pdf": "/assets/certificates/docs/03-building-ai-agents-with-mongodb.pdf"
+    "title": "Introduction To CyberSecurity",
+    "issuer": "Cisco Networking Academy",
+    "date": "jan 1, 2026",
+    "pdf": "/assets/certificates/docs/Introduction To Cybersecurity.pdf"
   },
   {
     "page": 4,
-    "title": "Building RAG Apps Using MongoDB",
-    "issuer": "MongoDB / Credly",
+    "title": "Java Foundations",
+    "issuer": "Oracle Academy",
     "date": "Jul 10, 2026",
-    "pdf": "/assets/certificates/docs/04-building-rag-apps-using-mongodb.pdf"
+    "pdf": "/assets/certificates/docs/Java Foundations.pdf"
   },
   {
     "page": 5,
-    "title": "CRUD Operations in MongoDB",
-    "issuer": "MongoDB / Credly",
+    "title": "Programming Fundamendels With Python",
+    "issuer": "NxtWave",
     "date": "Jul 10, 2026",
-    "pdf": "/assets/certificates/docs/05-crud-operations-in-mongodb.pdf"
+    "pdf": "/assets/certificates/docs/Python Programming.pdf"
   },
   {
     "page": 6,
-    "title": "MongoDB Basics for Students",
-    "issuer": "MongoDB",
-    "date": "Jul 08, 2026",
-    "pdf": "/assets/certificates/docs/06-mongodb-basics-for-students.pdf"
+    "title": "HR Masterclass",
+    "issuer": "Tereeqa Global Solutions",
+    "date": "dec 12, 2025",
+    "pdf": "/assets/certificates/docs/HR Masterclass.pdf"
   },
   {
     "page": 7,
-    "title": "AP Cybersecurity",
-    "issuer": "VelTech / Cisco Networking Academy",
+    "title": "Web Development",
+    "issuer": "Tech Vedhu",
     "date": "Jul 07, 2026",
-    "pdf": "/assets/certificates/docs/07-ap-cybersecurity.pdf"
+    "pdf": "/assets/certificates/docs/Web developnment.pdf"
   },
   {
     "page": 8,
-    "title": "Ethical Hacker",
-    "issuer": "VelTech / Cisco Networking Academy",
-    "date": "Jul 11, 2026",
-    "pdf": "/assets/certificates/docs/08-ethical-hacker.pdf"
+    "title": "Workshop on Internet Of Things",
+    "issuer": "NoviTech",
+    "date": "sep 29, 2023",
+    "pdf": "/assets/certificates/docs/IOT.pdf"
   },
   {
     "page": 9,
-    "title": "Industrial Cybersecurity Essentials",
-    "issuer": "VelTech / Cisco Networking Academy",
-    "date": "Jul 11, 2026",
+    "title": "Learning Linux Basics and Course Lab",
+    "issuer": "KodeKloud",
+    "date": "oct 1, 2023",
     "pdf": "/assets/certificates/docs/09-industrial-cybersecurity-essentials.pdf"
   },
   {
